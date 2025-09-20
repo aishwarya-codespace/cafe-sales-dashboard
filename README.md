@@ -1,88 +1,37 @@
 # cafe-sales-dashboard
 Power BI Dashboard with data cleaning in Python analyzing café sales, product performance, and customer trends.
 
-Project Overview
+###Project Overview###
 
-This project is a Power BI dashboard analyzing sales data for a café. It provides insights on overall sales, product performance, and customer/location trends to help make data-driven decisions.
+This project demonstrates an end-to-end data analytics workflow using Python and Power BI. Python (Jupyter Notebook) was used for data cleaning, and Power BI was used to visualize café sales, product performance, and customer trends.
 
-Key Features:
+###Dataset###
 
-Interactive dashboards with multiple pages
+raw_data.csv – Original, uncleaned dataset
+cleaned_data.csv – Cleaned and prepared for analysis
 
-Cross-page slicers and filters
+Key Columns: transaction date, product name, quantity, total sales, payment method
 
-Cleaned and processed data for accurate analysis
+Data Cleaning  (Performed in Python):
 
-Dataset
-
-Raw Data: raw_data.csv – Uncleaned CSV file with transaction records
-
-Cleaned Data: cleaned_data.csv – Data after preprocessing in Python (Jupyter Notebook / VS Code)
-
-Data Cleaning Steps (Python):
-
-Checked and corrected data types (dates, numeric fields).
-
-Handled missing values (filled with 0 or appropriate values).
-
-Standardized column names (lowercase, no spaces).
-
-Saved cleaned dataset as cleaned_data.csv for Power BI.
+Removed duplicates
+Standardized column names
+Converted data types
+Handled missing values (filled with 0)
+Converted transaction dates to datetime
 
 Power BI Report
 
-File: dashboard.pbix
+Page 1 – Sales Overview: Total sales, average sales, transactions, trends over time
+Page 2 – Product Performance: Top-selling products, revenue share
+Page 3 – Customer & Location Analysis: Payment methods, in-store vs takeaway comparison
 
-The report consists of three pages:
+Key Insights
 
-Page 1 – Sales Overview
+Coffee and sandwiches are the top-selling items
+Card payments are more popular than cash
+Takeaway orders are increasing
 
-KPIs / Cards:
+Conclusion
 
-Total Sales (Sum of total_sales)
-
-Total Transactions (Count of transaction_id)
-
-Average Sales per Transaction (Total Sales ÷ Transactions)
-
-Average Quantity per Transaction
-
-Charts:
-
-Line Chart → Sales over time (transaction_date vs total_sales)
-
-Clustered Column Chart → Sales by month
-
-Page 2 – Product Performance
-
-Charts:
-
-Bar Chart → Total Sales by Item (Top products)
-
-Column Chart → Quantity Sold by Item
-
-Pie/Donut Chart → Revenue share by Item
-
-Table:
-
-Top 10 items with columns: item, total quantity, total sales
-
-Page 3 – Customer & Location Analysis
-
-Charts:
-
-Pie/Donut Chart → Sales by Payment Method
-
-Stacked Column Chart → Sales by Location (In-store vs Takeaway)
-
-Line/Bar Combo → Sales trend by Location over time
-
-Project Screenshots
-
-Screenshots of the dashboard pages are in the screenshots/ folder:
-
-sales_overview.png
-
-product_performance.png
-
-customer_location_analysis.png
+This project highlights how Python and Power BI can be combined to analyze and visualize sales data for actionable business insights.
