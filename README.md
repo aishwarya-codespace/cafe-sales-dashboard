@@ -12,8 +12,8 @@ cleaned_data.csv – Cleaned and prepared for analysis
 
 Key Columns: transaction date, product name, quantity, total sales, payment method
 
-## Data Cleaning:  **Performed in Python**
-
+## Data Cleaning:  
+**performed in python**
 Removed duplicates
 Standardized column names
 Converted data types
@@ -22,9 +22,9 @@ Converted transaction dates to datetime
 
 ## Power BI Report
 
-Page 1 – Sales Overview: Total sales, average sales, transactions, trends over time
-Page 2 – Product Performance: Top-selling products, revenue share
-Page 3 – Customer & Location Analysis: Payment methods, in-store vs takeaway comparison
+**Page 1** – Sales Overview: Total sales, average sales, transactions, trends over time
+**Page 2** – Product Performance: Top-selling products, revenue share
+**Page 3** – Customer & Location Analysis: Payment methods, in-store vs takeaway comparison
 
 ## Key Insights
 
