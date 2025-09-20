@@ -30,7 +30,7 @@ Key Columns: transaction date, product name, quantity, total sales, payment meth
 
 - Salad and Juice are the top-selling items
 - Card payments are more popular than cash
-- Takeaway orders are increasing
+- Instore orders are increasing
 
 ## Conclusion
 
