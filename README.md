@@ -7,8 +7,8 @@ This project demonstrates an end-to-end data analytics workflow using Python and
 
 ## Dataset
 
-raw_data.csv – Original, uncleaned dataset
-cleaned_data.csv – Cleaned and prepared for analysis
+-raw_data.csv – Original, uncleaned dataset
+-cleaned_data.csv – Cleaned and prepared for analysis
 
 Key Columns: transaction date, product name, quantity, total sales, payment method
 
