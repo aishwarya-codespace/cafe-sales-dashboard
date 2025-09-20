@@ -14,23 +14,23 @@ Key Columns: transaction date, product name, quantity, total sales, payment meth
 
 ## Data Cleaning:  
 **performed in python**
-Removed duplicates
-Standardized column names
-Converted data types
-Handled missing values (filled with 0)
-Converted transaction dates to datetime
+- Removed duplicates
+- Standardized column names
+- Converted data types
+- Handled missing values (filled with 0)
+- Converted transaction dates to datetime
 
 ## Power BI Report
 
-**Page 1** – Sales Overview: Total sales, average sales, transactions, trends over time
-**Page 2** – Product Performance: Top-selling products, revenue share
-**Page 3** – Customer & Location Analysis: Payment methods, in-store vs takeaway comparison
+- **Page 1** – Sales Overview: Total sales, average sales, transactions, trends over time
+- **Page 2** – Product Performance: Top-selling products, revenue share
+- **Page 3** – Customer & Location Analysis: Payment methods, in-store vs takeaway comparison
 
 ## Key Insights
 
-Coffee and sandwiches are the top-selling items
-Card payments are more popular than cash
-Takeaway orders are increasing
+- Coffee and sandwiches are the top-selling items
+- Card payments are more popular than cash
+- Takeaway orders are increasing
 
 ## Conclusion
 
